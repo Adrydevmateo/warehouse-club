@@ -28,7 +28,7 @@ jobs:
 
     # Install dependencies
     - name: Install dependencies
-      run: bun ci
+      run: bun i
 
     # Run tests (optional, using Vitest)
     - name: Run tests
